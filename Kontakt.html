@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Assets/Images/Tocak.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="https://kit.fontawesome.com/20a37d813a.js" crossorigin="anonymous"></script>
+    <title>Obuka Vozaca</title>
+</head>
+<body>
+    <div id="Scroll">
+
+        <div id="Header">
+
+            <div id="Logo">
+                <img src="Assets/Images/Logo.png" height="50px" alt="hmm"/>
+            </div>
+            <div id="Title">
+                <p>Auto Škola Točak</p>
+            </div>
+
+            <div class="cleaner"> </div>
+        </div>
+
+        <div id="NAV">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Kategorije.html">Kategorije</a></li>
+                <li><a href="Informacije.html">Informacije</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+                <li><a href="O_Autoru.html">O Autoru</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <div id="Wrapper">
+        
+        <div id="Box2"> <a>	<marquee direction="right">Kontaktirajte nas! Upis je u toku!</marquee></a> </div>
+        
+            <div id ="Kontakt">
+                <h3> Gde se nalazimo? </h3><br><br>
+                    <p>
+                        Pere Perića bb, 11000 Beograd <br><br>
+                        Sve informacije možete dobiti putem telefona: <br>
+                        011 12-34-567    <br><br>
+                        Мožete nam poslati poruku na: autoskolatocak@gmail.com
+                        <br><br>
+                        Rukovodilac auto škole: Sima Simić<br>
+                        Referent: Ivan Ivanić   
+                    </p>
+                    <div id="Socials">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                    </div>
+                <div class="cleaner"> </div>      
+            </div>
+                
+        <div id=mapa> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707.8010244456865!2d20.475549462746063!3d44.79702904607574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70769352eedd%3A0x821f2f82a9ebbb3d!2sCara%20Nikolaja%20II%2C%20Beograd!5e0!3m2!1sen!2srs!4v1607702905695!5m2!1sen!2srs" width="1360" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+		 
+        <div id="Box2"> <a> Forma za upis </a> </div>
+	<div id="forma">
+	
+  <form action="/onlineupis.php" method="post">
+    <label for="ime">Ime</label>
+    <input type="text" id="ime" name="ime" placeholder="Unesite vaše ime">
+
+    <label for="prezime">Prezime</label>
+    <input type="text" id="prezime" name="prezime" placeholder="Unesite vaše prezime">
+
+    <label for="kategorija">Izaberite kategoriju</label>
+    <select id="kategorija" name="kategorija">
+      <option value="B Kategorija">B Kategorija</option>
+      <option value="C Kategorija">C Kategorija</option>  
+    </select>
+	<label for="instruktor">Izaberite Instruktora</label>
+    <select id="instruktor" name="instruktor">
+      <option value="Petar Marković">Petar Marković</option>
+      <option value="Živojin Branimir">Živojin Branimir</option>
+      <option value="Marko Živojinovića">Marko Živojinović</option>
+    </select>
+	 <label for="pitanje">Postavite pitanje:</label>
+    <textarea id="pitanje" name="pitanje" placeholder="Ovde možete uneti pitanje" style="height:150px" ></textarea>
+  
+    <input type="submit" value="Pošalji">
+  </form>
+</div>
+ 
+<div id="Footer">
+    <div class="Text">
+        <h3> Gde se nalazimo? </h3><br><br>
+        <p>
+            Pere Perića bb, 11000 Beograd <br><br>
+            Sve informacije možete dobiti putem telefona: <br>
+            011 12-34-567    <br><br>
+            Мožete nam poslati poruku na: autoskolatocak@gmail.com
+            <br><br>
+            Rukovodilac auto škole: Sima Simić<br>
+            Referent: Ivan Ivanić   
+        </p>
+    </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707.8010244456865!2d20.475549462746063!3d44.79702904607574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70769352eedd%3A0x821f2f82a9ebbb3d!2sCara%20Nikolaja%20II%2C%20Beograd!5e0!3m2!1sen!2srs!4v1607702905695!5m2!1sen!2srs" width="400" height="280" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="cleaner"> </div>  
+</div>
+		
+    </div>
+
+</body>
+</html>

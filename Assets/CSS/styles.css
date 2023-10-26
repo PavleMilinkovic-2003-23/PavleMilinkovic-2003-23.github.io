@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.cleaner{
+    clear: both;
+}
+
+body{
+    background-image: url("../Images/Seamless.jpg");
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+#Scroll{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+#Header{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+}
+
+#Logo{
+    position: absolute;
+    float: left;
+}
+
+#Socials{
+    width: 10%;
+    display: inline;
+    background-color: white;
+    height: 50px;
+}
+
+#Title p{ 
+    color: rgb(209, 207, 207);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+#Search{
+    float: right;
+}
+
+#NAV{
+    width: 100%;
+    background-color: black;
+}
+
+#NAV ul{
+    text-align: center;
+    padding: 16px;
+}
+
+#NAV li{
+    display: inline-block;
+    margin: 0px auto;
+}
+
+#NAV ul li ul {
+    position: absolute;
+    display: none;
+    opacity: .15;
+    visibility: hidden;
+ 
+}
+
+#NAV ul li ul li{
+    display: block;
+    color: silver;
+}
+
+#NAV li a{
+    color: white;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#NAV ul li:hover{
+    background-color: rgb(65, 10, 110);
+}
+
+#Wrapper{
+    box-shadow: 3px 10px 4px #2a2130;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 140px;
+    width: 1360px;
+    background-color: rgb(235, 235, 235);
+}
+
+#Banner{
+    width: 100%;
+    background-size: cover;
+}
+
+#Kontakt{
+    background-color:white;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 1%;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid silver;
+    box-shadow: 3px 1px 4px grey;
+}
+
+#Kontakt h3{
+    color: black;
+}
+
+.Box{
+    text-align: justify;
+    float: left;
+    width: 28%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid rgb(202, 201, 201);
+}
+
+.Box h2{
+    text-align: center;
+}
+
+#Box2{
+    margin: 0px auto;
+    width: 90%;
+    padding: 20px;
+    margin-left: 2.5%;
+    border-radius: 25px;
+    background-color: rgba(185, 174, 174, 0.5);
+    margin-top: 5%;
+    text-align: center;
+}
+
+#Box4 h3{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+#Box2 h2{
+    border-radius: 25px;
+    background-color: rgb(31, 27, 31);
+    padding: 10px;
+}
+
+#Box1{
+    color: black;
+    margin-top: 2%;
+}
+
+#Box1 ul{
+    margin-left: 300px;
+}
+
+#Box1 h1{
+    text-align: center;
+}
+
+#Box3{
+    background-color:white;
+    float: left;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgb(219, 214, 214);
+    box-shadow: 3px 1px 4px rgb(124, 124, 124);
+}
+
+#Box3 h2{
+    font-size: 32px;
+    color: black;
+}
+
+#Box4{
+    background-color:white;
+    float: left;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid silver;
+    box-shadow: 3px 1px 4px grey;
+}
+
+#Box4 p{
+    font-size: 16px;
+}
+#Box4 li{
+    color: black;
+}
+
+#Box5{
+    margin: 0px auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(185, 174, 174, 0.5);
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Container{
+    float: left;
+    margin-left: 2.5%;
+    background-image: url("../Images/Banner.png");
+    background-size: cover;
+    height: 150px;
+    width: 30%;
+}
+
+#Footer{
+    box-shadow: 3px 1px 4px black;
+    width: 100%;
+    height: 330px;
+    margin-top: 5%;
+    background-color: black;
+    position: static;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+}
+
+.Text{
+    float: left;
+    width: 50%;
+    font-weight: 450;
+    line-height: 25px;
+    margin: 25px 0px 0px 35px;
+}
+
+.Text p{
+    color: rgb(255, 255, 255);
+}
+
+.Image{
+    float: left;
+    margin-left: 25px;
+    margin-top: 1%;
+    box-shadow: 3px 1px 4px rgb(124, 124, 124);
+}
+
+.sImage{
+    transition: .25s;
+    float: left;
+    border: 1px solid rgb(175, 170, 170);
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+
+.sImage:hover{
+    border-left: 10px solid rgb(81, 20, 134);
+}
+
+#forma{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0px auto;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: block;
+}
+
+input[type=submit] {
+    
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Roboto Mono', monospace;
+
+}#mapa{
+    width: 30%;
+    margin-top: 1%;
+ 
+}
+
+.cImage img{
+    transition: .2s;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cImage img:hover{
+    border-bottom: 8px solid rgb(81, 20, 134);
+}
+
+.desc{
+    font-weight: 600;
+    margin-top: 8%;
+    text-align: center;
+    color: black;
+}
+
+.Instruktor{
+    float: left;
+    margin-top: 1%;
+    margin-left: 12%;
+}
+  
+#Vest {
+    padding: 50px;
+    margin-left: 8%;
+}
+
+#Vest h3{
+    color: black;
+}
+
+#Vest li{
+    color: black;
+}
+
+#Vest ul{
+    list-style-type: none;
+}
+
+#SlikaAutor{
+    margin-top: 1%;
+    margin-left: 8%;
+    Float: left;
+}
+
+#Autor{
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+#Autor h3{
+    color: black;
+}
+
+.fab{
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 40px;
+}
+
+.fa-facebook-square{
+    color:#3b5998;
+}
+
+.fa-twitter-square{
+    color: #00ACEE;
+}
+
+.fa-twitch{
+    font-size:38px;
+    color: #6441a5;
+}
+
+#map{
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
