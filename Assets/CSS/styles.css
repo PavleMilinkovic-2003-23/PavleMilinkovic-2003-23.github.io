@@ -10,7 +10,7 @@
 
 body{
     background-image: url("../Images/Seamless.jpg");
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Roboto Mono', monospace;
     color: white;
 }
 
@@ -276,7 +276,7 @@ p{
     background-color: #f2f2f2;
     padding: 20px;
     margin: 0px auto;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Roboto Mono', monospace;
     color: black;
 }
 
@@ -303,7 +303,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Roboto Mono', monospace;
 
 }#mapa{
     width: 30%;
